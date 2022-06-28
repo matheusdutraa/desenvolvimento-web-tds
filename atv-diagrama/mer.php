@@ -2,9 +2,9 @@
 
 class aluno{
 
-    public $matricula;
-    public $nome;
-    public $data_nascimento;
+    private $matricula;
+    private $nome;
+    private $data_nascimento;
 
     public function __construct($matricula, $nome, $data_nascimento){
         $this->matricula = $matricula;
@@ -61,8 +61,8 @@ class aluno{
 
 class professor{
 
-    public $cod_professor
-    public $nome;
+    private $cod_professor
+    private $nome;
 
     public function __construct($cod_professor, $nome){
         $this->cod_professor = $cod_professor;
@@ -102,9 +102,9 @@ class professor{
 
 class curso{
 
-    public $cod_curso;
-    public $quantidade_alunos;
-    public $carga_horarioa;
+    private $cod_curso;
+    private $quantidade_alunos;
+    private $carga_horarioa;
 
     public function __construct($cod_curso, $quantidade_alunos){
         $this->cod_curso = $cod_curso;

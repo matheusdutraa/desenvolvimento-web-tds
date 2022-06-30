@@ -22,6 +22,8 @@
 
         public function __destruc(){
                 print("Destruindo: " .$this->altura. " " .$this->comprimento. " " .$this->largura. " " .$this->conteudo. " " .$this->cor);
+            
+                echo " <br> Destruindo elementos " .$caixa->__destruc()
         }
 
         public function getAltura()

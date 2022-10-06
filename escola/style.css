@@ -1,0 +1,16 @@
+
+body{
+    background-color: #51575d;
+    color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    min-width: 250px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}

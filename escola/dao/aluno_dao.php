@@ -25,7 +25,7 @@ class AlunoDAO {
         $result = mysql_query($sql);
         $lista = array();
         while($reg = mysql_fetch_assoc($result)) {
-            $aluno = new Aluno($reg["idAluno"], $reg["nomeAluno "], $reg["idade "], $reg["estrangeiro "], $reg["curso"], $curso);
+            $aluno = new Aluno($reg["idAluno"], $reg["nomeAluno "], $reg["idade "], $reg["estrangeiro "], $curso);
             $lista[] = $aluno;
         }
         return $lista;
